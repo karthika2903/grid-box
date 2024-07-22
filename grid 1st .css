@@ -1,0 +1,63 @@
+.holly{
+    grid-area:myBox;
+}
+.nav{
+    grid-area:myNav;
+}
+.main{
+    grid-area:myMain;
+}
+.sidebar{
+    grid-area:mySide;
+}
+.footer{
+    grid-area:myFoot;
+}
+.grid-container{
+    display:grid;
+    grid-template-areas: 'myBox myBox myBox myBox'
+    'myNav myMain myMain mySide  '
+    'myNav myMain myMain mySide'
+    'myNav myMain myMain mySide'
+    'myFoot myFoot myFoot myFoot';
+
+    grid-gap:10px;
+    padding: 20px;
+    background-color: rgb(178, 178, 182);
+}
+.holly{
+    background-color: rgb(8, 8, 168);
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+    font-size: x-large;
+}
+.nav{
+    background-color: rgb(44, 44, 248);
+    text-align: center;
+    color: white;
+    padding: 180px 0;
+    font-size: x-large;
+}
+.main{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding: 180px 0;
+    font-size: x-large;
+}
+.sidebar{
+    background-color: rgb(44, 44, 248);
+    text-align: center;
+    color:white;
+    padding: 180px 0;
+    font-size: x-large;
+}
+.footer{
+    background-color: rgb(8, 8, 168);
+    text-align: center;
+    color:white;
+    padding: 50px 0;
+    font-size: x-large;
+}
